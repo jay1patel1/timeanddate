@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.outerDiv {
+    display: block;
+    text-align: center;
+    align-items: center;
+}
+
+
+.timebox {
+    display: flex; /* Use flexbox for the .timebox */
+    flex-direction: column; /* Stack the text vertically */
+    justify-content: center; /* Center text vertically */
+    align-items: center; /* Center text horizontally */
+    width: 250px;
+    height: 80px;
+    border-radius: 10px;
+    background-color: #D2DE32;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    color: #016A70;
+    text-align: center;
+}
+
+h1,h2 {
+    color: #FFFFDD;
+    font-family: 'Varela Round', sans-serif;
+}
+
+#time {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 50px;
+}
